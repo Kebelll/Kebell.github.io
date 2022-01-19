@@ -34,7 +34,7 @@ int main(void)
 void reset(int *ammo, int *score, char mapcopy[10][10])
 {
     char choice;
-    *ammo = 1;
+    *ammo = 35;
     *score = 0;
     for (int i = 0; i < 10; i++)
     {
